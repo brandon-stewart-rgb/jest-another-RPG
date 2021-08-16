@@ -47,4 +47,4 @@ test('gets description of enemy', () => {
 
     expect(enemy.getDescription()).toEqual(expect.stringContaining('goblin'));
     expect(enemy.getDescription()).toEqual(expect.stringContaining('sword'));
-})
+});
